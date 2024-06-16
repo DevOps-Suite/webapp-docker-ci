@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
+db_name = os.getenv("DB_NAME")
 database_url = os.getenv("DATABASE_URL")
 
 engine = create_engine(database_url,
