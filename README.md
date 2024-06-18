@@ -68,3 +68,7 @@ This repository contains python code for web application built using fastapi, do
   5. `PUT /item/<item_id>`: Allows to update an item with given item_id
 
   6. `DELETE /item/<item_id>`: Allows to delete an item with given item_id
+
+### RUNNING WEBAPP USING DOCKER COMPOSE
+
+- Follow instructions from [here](https://github.com/ShivaniShah06/Docker/tree/main/Dockerfile-and-Compose/nutricart-webapp#readme)
